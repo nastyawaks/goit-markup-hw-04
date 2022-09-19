@@ -158,7 +158,6 @@ body {
   fill: var(--link-color);
 }
 
-
 /* hero */
 
 .hero {
@@ -442,13 +441,11 @@ body {
   fill: var(--client-color);
 }
 
-
 .action > .link:hover,
 .action > .link:focus {
   background-color: var(--link-color);
   fill: var(--primary-white-color);
 }
-
 
 /* .item > .title {
   text-align: center;
@@ -498,8 +495,8 @@ footer {
 }
 
 .footer > .container {
-    display: flex;
-        align-items: baseline;
+  display: flex;
+  align-items: baseline;
 }
 
 /* footer logo and contacts */
@@ -554,12 +551,13 @@ padding-bottom: 60px;
 
 .footer.title {
   font-weight: 700;
-font-size: 14px;
-line-height: 1.1;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: var(--primary-white-color);
-margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+  margin-top: 0;
+  margin-bottom: 20px;
 }
 
 .footer-icons {
@@ -571,8 +569,8 @@ margin-bottom: 20px;
   margin-right: 10px;
 }
 
-.footer-icons .item:nth-child(4n){
-    margin-right: 0px;
+.footer-icons .item:nth-child(4n) {
+  margin-right: 0px;
 }
 
 .footer-links {
@@ -593,7 +591,7 @@ margin-bottom: 20px;
 
 .footer-links .link:hover,
 .footer-links .link:focus {
-background: var(--link-color);
+  background: var(--link-color);
 }
 
 /* Portfolio */
@@ -614,6 +612,8 @@ background: var(--link-color);
 .button-alt:focus {
   color: var(--primary-white-color);
   background-color: var(--link-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .filters {
@@ -676,6 +676,10 @@ background: var(--link-color);
   margin-right: 0;
 }
 
+.portfolio .item:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 .item img {
   display: block;
 }
@@ -685,4 +689,5 @@ background: var(--link-color);
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
+  -webkit-column-rule-width: ;
 }
